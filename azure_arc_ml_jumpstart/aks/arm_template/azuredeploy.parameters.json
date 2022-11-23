@@ -27,7 +27,7 @@
       "value": "arcboxml"
     },
     "templateBaseUrl": {
-      "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_ml_jumpstart/aks/arm_template/"
+      "value": "https://raw.githubusercontent.com/nealmcfee-stack/azure_arc_jumpstart/main/azure_arc_ml_jumpstart/aks/arm_template/"
     },
     "kubernetesVersion": {
       "value": "1.25.2"
