@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1yiT4h8c/TBht+w3Eh0pv7+xeTrC3CqQ0mQOAvy4P71krSVRJ1BTENQUJZdLjjaHCDptdoli39EqhmwaOFPVcrPCFUD1DY5LGTCyQshv1cfhIxpN5HRBYRXZ+aXcGgiiE2MBMV0PKrkNGPNbJyYAH4lR2qDNP/5nT9lpxug5bcTBd7vg06hwJgn7Txmt5IvoS9liVF4N0sou3A6b4da4CR9U+FhiAUGxBZu4xC2LN2ZdDDNvlUJRtCkXXAF3G4OaqEwjtNGCCbrEGx529FrPq0QzNwEM12KkcMbICaEFYQZd/LB5kCfChMDLKrqOKoDoKJWD2gWHIoZTT9Au5A8geDU09ZOlB/DC57zeZ5ZRoBDPXb09Xm6Q7FqZtdISX3vG0parISmgP4qkWyGb5r/d8VhME16OLkov7DClDwKQBi6HQgSIqycp0hWDsjrOdfyqR+im3OrVjf3hJSeBZrx1HhQKwrxVZ8lwOW12J4slKUFblrsxNyNbc5aC7p3UKEKKJdpNc3W3S+AxoM9eMmvQwvNFzYexfKeTRHqriFSxnjbwQHcqKqugr9Y8+YPBJtPTQ/x8ZU4ZsIuu/KRMKxVjLVDSrxvMB+tWuTw+aqbPlNsl0Ezn4Sb4BgoGE3l7cTfzq1Ra/Usq1DXSxnI61mXYf+0gNQb3TktAqBYsN29qPTw== neal@teammcfee.com"
+        },
+        "spnClientId": {
+            "value": "3cf14f02-54c3-4eb3-8664-d393a8e6f0d6"
+        },
+        "spnClientSecret": {
+            "value": "0gR8Q~L2xosCHCyMDe_Uc19jPh4TFGAR3Zqqkau."
+        },
+        "spnTenantId": {
+            "value": "447bcb4e-6c03-4591-b8fa-14ec76147488"
+        },
+        "windowsAdminUsername": {
+            "value": "arcdemo"
+        },
+        "windowsAdminPassword": {
+            "value": "ArcPassword123!!"
+        },
+        "logAnalyticsWorkspaceName": {
+            "value": "arcdemo"
+        },
+        "flavor": {
+            "value": "DataOps"
+        },
+        "deployBastion": {
+            "value": true
+        },
+        "githubUser": {
+            "value": "microsoft"
+        }
+    }
+}
